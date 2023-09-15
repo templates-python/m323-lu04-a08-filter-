@@ -7,9 +7,9 @@ def filter_long_words(words):
     - list: Eine Liste der Wörter mit mehr als 5 Zeichen.
     """
     # Ihr Code hier
-    return long_words_list
+    return list
 
 if __name__ == '__main__':
-    words = ["apple", "banana", "cherry", "date"]
+    words = ['apple', 'banana', 'cherry', 'date']
     long_words = filter_long_words(words)
     print(long_words)
