@@ -1,12 +1,15 @@
-def calculate():
+def filter_long_words(words):
     """
-    calculates the total
-    :return: None
+    Filtert Wörter aus der gegebenen Liste, die mehr als 5 Zeichen lang sind.
+    Args:
+    - words (list): Eine Liste von Wörtern.
+    Returns:
+    - list: Eine Liste der Wörter mit mehr als 5 Zeichen.
     """
-    price = 15.75
-    quantity = 3  # TODO change quantity to 5
-    print(f'Total: {price * quantity}')
-
+    # Ihr Code hier
+    return long_words_list
 
 if __name__ == '__main__':
-    calculate()
+    words = ["apple", "banana", "cherry", "date"]
+    long_words = filter_long_words(words)
+    print(long_words)
