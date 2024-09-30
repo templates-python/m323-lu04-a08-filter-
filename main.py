@@ -9,6 +9,7 @@ def filter_long_words(words):
     # Ihr Code hier
     return list
 
+
 if __name__ == '__main__':
     words = ['apple', 'banana', 'cherry', 'date']
     long_words = filter_long_words(words)
